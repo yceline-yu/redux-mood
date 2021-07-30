@@ -1,4 +1,4 @@
-const INITIAL_STATE = {mood: "(ㅅꈍ ˘ ꈍ)"}
+const INITIAL_STATE = { mood: "(ㅅꈍ ˘ ꈍ)" }
 
 function moodReducer(state=INITIAL_STATE, action) {
   switch (action.type) {

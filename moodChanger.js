@@ -26,4 +26,4 @@ document.querySelector("#shocked")
   store.dispatch({type: "SHOCKED"});
   const currentMood = store.getState().mood;
   moodElement.innerText = currentMood;
-})
+});
